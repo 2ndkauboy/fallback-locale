@@ -1,10 +1,13 @@
 === Language Fallback ===
 Contributors: Kau-Boy
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7914504
-Tags: localization, language, locale, english, german, l10n, i18n, translation, fallback
+Tags: localization, language, locale, translation, fallback
 Requires PHP: 5.6
 Requires at least: 4.0
-Tested up to: 6.3
+Tested up to: 6.7
+Stable tag: 2.0.1
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
 Set a language as a fallback for the chosen language (e.g. "Deutsch" as a fallback for "Deutsch (Sie)")
 
@@ -14,7 +17,7 @@ Starting with WordPress 4.3, you can use languages such as "Deutsch (Sie)" (form
 translation file for this language, WordPress would use the default language, usually English, instead. With the help of this plugin, you can set a fallback for your chosen language.
 Every time a translation file is loaded, the plugin will then load the fallback, if a translation for the originally chosen language was not found.
 
-A list of all of my plugins can be found on the [WordPress Plugin page](http://kau-boys.com/wordpress-plugins "WordPress Plugins") on my blog [kau-boys.com](http://kau-boys.com). 
+A list of all of my plugins can be found on the [WordPress Plugin page](http://kau-boys.com/wordpress-plugins "WordPress Plugins") on my blog [kau-boys.com](http://kau-boys.com).
 
 == Screenshots ==
 
@@ -36,8 +39,13 @@ No. You can choose any fallback language that fits your original language. Think
 
 No. The plugin will automatically download the fallback language if it is not already installed.
 
-   
+
 == Change Log ==
+
+= 2.0.1 =
+* Fix some minor Plugin Check issues
+* Increment Tested up to
+* Time invested for this release: 20min
 
 = 2.0.0 =
 * Implement a solution for "_load_textdomain_just_in_time" function not loading the fallback ".mo" files
@@ -64,5 +72,5 @@ No. The plugin will automatically download the fallback language if it is not al
 * Time invested for this release: 15min
 
 = 1.0.0 =
-* Intitial release of the plugin
+* Initial release of the plugin
 * Time invested for this release: 200min
